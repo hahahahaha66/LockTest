@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/liblock.a CMakeFiles/lock_object.dir/lock/hash_lock.c.o CMakeFiles/lock_object.dir/lock/list_lock.c.o CMakeFiles/lock_object.dir/lock/lock.c.o
+/usr/bin/ranlib ../lib/liblock.a

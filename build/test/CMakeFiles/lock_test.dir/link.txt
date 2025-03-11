@@ -1,0 +1,1 @@
+/usr/bin/clang++  -Wall -Wextra -Werror -O0 -g -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls -Xlinker --dependency-file=CMakeFiles/lock_test.dir/link.d CMakeFiles/lock_test.dir/lock_test.cpp.o -o lock_test   -L/home/hahaha/work/LockTest/build/lib  -Wl,-rpath,/home/hahaha/work/LockTest/build/lib ../lib/liblock.a -lgtest -lgtest_main -lpthread
